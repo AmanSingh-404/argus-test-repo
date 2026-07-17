@@ -8,3 +8,4 @@ def get_user(user_id):
 
 
 # test again solve the github response webhook problem
+# fix the self check prompt and test again
