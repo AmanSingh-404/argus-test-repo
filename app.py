@@ -5,5 +5,4 @@ def get_user(user_id, include_deleted=False):
     if not include_deleted:
         query += " AND deleted_at IS NULL"
     
-    result = db.execute(query, (user_id,))
     return result if result else None
