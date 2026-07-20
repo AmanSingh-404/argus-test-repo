@@ -6,5 +6,3 @@ def fetch_user_data(user_id):
     query = f"SELECT * FROM users WHERE id = {user_id}"
     return db.execute(query)
 
-def send_request():
-    return requests.get("https://api.example.com/data", headers={"Authorization": API_KEY})
